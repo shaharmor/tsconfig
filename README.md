@@ -1,0 +1,2 @@
+# tsconfig
+My opinionated tsconfig
