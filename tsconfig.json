@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": false,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "preserveConstEnums": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+    "types": [
+      "jest"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@shaharmor/tsconfig",
+  "version": "0.0.0",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "author": "Shahar Mor",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shaharmor/tsconfig.git"
+  },
+  "peerDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
