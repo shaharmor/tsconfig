@@ -1,6 +1,6 @@
 {
   "name": "@shaharmor/tsconfig",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "tsconfig.json",
   "files": [
     "tsconfig.json"
