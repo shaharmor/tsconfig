@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    // https://github.com/Microsoft/TypeScript/issues/29172
+    // "baseUrl": ".",
     "declaration": false,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
@@ -11,11 +12,12 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "paths": {
-      "@/*": [
-        "src/*"
-      ]
-    },
+    // https://github.com/Microsoft/TypeScript/issues/29172
+    // "paths": {
+    //  "@/*": [
+    //    "src/*"
+    //  ]
+    // },
     "preserveConstEnums": false,
     "removeComments": true,
     "resolveJsonModule": true,
