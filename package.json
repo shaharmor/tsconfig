@@ -1,16 +1,26 @@
 {
   "name": "@shaharmor/tsconfig",
   "version": "0.1.0",
-  "main": "tsconfig.json",
+  "description": "My opinionated tsconfig",
+  "keywords": [
+    "tsconfig"
+  ],
+  "homepage": "https://github.com/shaharmor/tsconfig",
+  "bugs": {
+    "url": "https://github.com/shaharmor/tsconfig/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaharmor/tsconfig.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Shahar Mor"
+  },
   "files": [
     "tsconfig.json"
   ],
-  "author": "Shahar Mor",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/shaharmor/tsconfig.git"
-  },
+  "main": "tsconfig.json",
   "peerDependencies": {
     "typescript": "^3.7.2"
   }
