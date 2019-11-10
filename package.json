@@ -12,6 +12,6 @@
     "url": "git://github.com/shaharmor/tsconfig.git"
   },
   "peerDependencies": {
-    "typescript": "^3.5.3"
+    "typescript": "^3.7.2"
   }
 }
