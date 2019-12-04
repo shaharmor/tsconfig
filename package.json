@@ -1,6 +1,6 @@
 {
   "name": "@shaharmor/tsconfig",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "My opinionated tsconfig",
   "keywords": [
     "tsconfig"
