@@ -1,22 +1,28 @@
 {
   "compilerOptions": {
+    // "alwaysStrict": true, // strict
     // https://github.com/Microsoft/TypeScript/issues/29172
     // "baseUrl": ".",
     "declaration": false,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "noEmitOnError": true,
+    "noErrorTruncation": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
+    // "noImplicitThis": true, // strict
+    // "noImplicitAny": true, // strict
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     // https://github.com/Microsoft/TypeScript/issues/29172
+    // "outDir": "dist",
+    // https://github.com/Microsoft/TypeScript/issues/29172
     // "paths": {
-    //  "@/*": [
-    //    "src/*"
-    //  ]
+    //   "@/*": [
+    //     "src/*"
+    //   ]
     // },
     "preserveConstEnums": false,
     "removeComments": true,
@@ -24,6 +30,10 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
+    // "strictBindCallApply": true // strict
+    // "strictNullChecks": true, // strict
+    // "strictFunctionTypes": true, // strict
+    // "strictPropertyInitialization": true, // strict
     "target": "esnext"
   }
 }
