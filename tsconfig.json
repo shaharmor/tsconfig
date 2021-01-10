@@ -6,6 +6,7 @@
     "declaration": false,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
     "module": "commonjs",
     "moduleResolution": "node",
     "noEmitOnError": true,
