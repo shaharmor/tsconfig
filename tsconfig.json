@@ -10,7 +10,7 @@
     "importHelpers": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "noEmitOnError": true,
+    // "noEmitOnError": true, // this breaks tests with TS errors
     "noErrorTruncation": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
