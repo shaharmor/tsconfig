@@ -8,6 +8,7 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
+    "isolatedModules": true,
     "module": "commonjs",
     "moduleResolution": "node",
     // "noEmitOnError": true, // this breaks tests with TS errors
@@ -26,7 +27,7 @@
     //     "src/*"
     //   ]
     // },
-    "preserveConstEnums": false,
+    "preserveConstEnums": true,
     "removeComments": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
